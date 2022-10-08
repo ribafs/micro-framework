@@ -62,4 +62,5 @@ Pacotes de terceiros
 
 ## Licença
 
-
+MIT
+    
