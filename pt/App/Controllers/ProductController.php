@@ -34,7 +34,7 @@ class ProductController
     {
         if (isset($field_id)) {
             $Product = new Product('products');
-            $regs = $Product->fetch($field_id);
+            $regs = $Product->edit($field_id);
 
             if ($regs === false) {
                 $msg='Este registro não inexiste!';

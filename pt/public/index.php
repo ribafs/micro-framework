@@ -24,6 +24,29 @@ require_once ROOT . 'vendor/autoload.php';
 
 require_once ROOT . 'config.php';
 
+use Spatie\Ignition\Ignition;
+
+if ( DEBUG == true ) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+    Ignition::make()->register();
+
+    \Spatie\Ignition\Ignition::make()
+        ->useDarkMode()
+        ->register();
+
+    // Descomente a linha abaixo para ver o Ignition em ação
+    // throw new Exception('Testando');
+}else{
+    error_reporting(0);
+    ini_set('display_errors', 0);
+
+    \Spatie\Ignition\Ignition::make()
+        ->shouldDisplayException($inLocalEnvironment)
+        ->register();
+}
+
 // Load Router class
 use Core\Router;
 

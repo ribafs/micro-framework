@@ -12,6 +12,8 @@ class Product
     public function __construct($table)
     {
         $this->table = $table;
+
+        // Iniciando a classe de conexão com Singleton
         try {
         	$pdo = Connection::getInstance();
             $this->pdo = $pdo;
@@ -37,7 +39,7 @@ class Product
         $query->execute($parameters);
     }
 
-    public function fetch($field_id)
+    public function edit($field_id)
     {
         $sql = "SELECT id, name, price FROM {$this->table} WHERE id = :field_id LIMIT 1";
         $query = $this->pdo->prepare($sql);

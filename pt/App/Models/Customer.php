@@ -37,7 +37,7 @@ class Customer
         $query->execute($parameters);
     }
 
-    public function fetch($field_id)
+    public function edit($field_id)
     {
         $sql = "SELECT id, name, age FROM {$this->table} WHERE id = :field_id LIMIT 1";
         $query = $this->pdo->prepare($sql);

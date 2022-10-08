@@ -19,7 +19,7 @@ Third-party packages
 - Migrations and seeders with Phinx e Faker Restaurant
 - Ignition handler error
 
-## Install
+## Install this example
 
 - Copy app folder to /var/www/html or c:\xampp\htdocs
 - Create database in mysql
@@ -33,4 +33,7 @@ sh migrate.sh
 Access
 
 http://localhost/micro-framework
+
+
+## [Using the Micro Framework](using.md)
 

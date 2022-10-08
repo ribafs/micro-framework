@@ -1,12 +1,9 @@
 # Micro Framework
 
-Este projeto basicamente é o exemplo de aplicativo do Simplest Router, mas resolvi criar um repositório a ele para dar mais visibilidade.
+Este projeto basicamente é o exemplo de aplicativo do Simplest Router, com poucas alterações, mas resolvi criar um repositório para ele, para dar mais visibilidade.
 
-## URL deste projeto
 
-https://github.com/ribafs/micro-framework
-
-## Click to access/Clique para acessar
+## Clique para acessar/Click to access
 
 [*Português*](pt-BR) | [*English*](en-US)
 ----------- | ----------
@@ -16,12 +13,14 @@ Projeto
 
 [https://github.com/ribafs/micro-framework](https://github.com/ribafs/micro-framework)
 
+
 ### Este projeto foi criado partindo principalmente dos projetos abaixo:
 
 - https://github.com/Izamzawi/blog-php-mvc
 - https://github.com/panique/mini3
 - https://github.com/nikic/FastRoute
 - https://github.com/ribafs/simplest-router
+
 
 ## Testado em
 
@@ -43,9 +42,11 @@ Usando a respectiva versão so Simplest Router, testei com:
 - MySQL/MariaDb
 - PostgreSQL
 
+
 ## Requisitos
 
 - Module mod_rewrite from Apache
+
 
 ## Alguns recursos
 
@@ -67,4 +68,4 @@ Pacotes de terceiros
 ## Licença
 
 MIT
-    
+

@@ -34,7 +34,7 @@ class CustomerController
     {
         if (isset($field_id)) {
             $Customer = new Customer('customers');
-            $regs = $Customer->fetch($field_id);
+            $regs = $Customer->edit($field_id);
 
             if ($regs === false) {
                 $msg='Register not found!';
