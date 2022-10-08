@@ -12,6 +12,8 @@ class Product
     public function __construct($table)
     {
         $this->table = $table;
+
+        // Starting database connection with Singleton
         try {
         	$pdo = Connection::getInstance();
             $this->pdo = $pdo;
