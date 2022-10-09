@@ -1,9 +1,24 @@
-# Migrations e Seed
+# Migrations e Seeds com Phinx
+
+https://phinx.org/ e https://github.com/cakephp/phinx
+
+
+## Por que usar migrations
+
+Migrations tornam a manutenção do aplicativo mais prática. Caso haja a necessidade de mudar de SGBD do MySQL para o PostgreSQL ou para outro suportado, basicamente precisamos apenas trocar os dados no config.php. No caso, nativamente o Phinx suporta: 
+- MySQL
+- PostgreSQL
+- SQLite
+- Microsoft SQL Server
+
+Outro motivo forte para usar migrations e seeds aqui é que já adiciona um conhecimento usado nos grandes frameworks.
+
 
 ## Instalar os pacotes
 
 composer require jzonta/faker-restaurant
 composer require robmorgan/phinx
+
 
 ## Migrations
 
@@ -23,6 +38,7 @@ phinx.php
 Devemos editar e ajustar os dados do banco.
 
 Caso estejamos em desenvolvimento altere a seção development. Caso em produção a respectiva seção.
+
 
 ## Para criar uma nova migration para uma tabela
 
@@ -109,6 +125,7 @@ class Customers extends AbstractSeed
     }
 }
 ```
+
 ## Popular a tabela customers usando o seed
 
 php vendor/bin/phinx seed:run -e development
@@ -141,7 +158,4 @@ php bin/migrations_create Products
 php bin/seeds_create Products
 
 Veja o padrão para memorizar: os arquivos com create são no plural e os com run são no singular.
-
-
-
 

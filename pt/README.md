@@ -36,6 +36,13 @@ Access
 
 http://localhost/micro-framework
 
+Caso queira criar novas migrations e seeds veja o tutorial em
 
-## [Usando o Micro Framework](usando.md)
+[MigrationsSeeds.md](MigrationsSeeds.md)
+
+
+## Usando o Micro Framework
+
+[Usando o Micro Framework](usando.md)
+
 

@@ -2,6 +2,18 @@
 
 Este projeto basicamente é o exemplo de aplicativo do Simplest Router, com poucas alterações, mas resolvi criar um repositório para ele, para dar mais visibilidade.
 
+Apenas uma pequena refatoração:
+
+- Renomeei o método fetch() nos models em App para edit()
+- Renomeei o action fetch() nos controllers em App para edit()
+Assim ficou bem coerente, pois o papel dele é de edit.
+
+Adicionei pequenos comentários para deixar mais claro.
+
+Movi a configuração do Ignition do config.php para o public/inde.php. Assim, basicamente o index.php não precisará de alterações ao se criar um novo aplicativo.
+
+Melhorei a documentação das migrations com o Phinx.
+
 
 ## Clique para acessar/Click to access
 
