@@ -36,6 +36,9 @@ Access
 
 http://localhost/micro-framework
 
+
+## Migrations e seeds
+
 Caso queira criar novas migrations e seeds veja o tutorial em
 
 [MigrationsSeeds.md](MigrationsSeeds.md)
