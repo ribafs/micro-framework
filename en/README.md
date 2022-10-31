@@ -34,6 +34,10 @@ Access
 
 http://localhost/micro-framework
 
+## Adjusts
+
+Now adjust microframework code structure to new database: controllers, models, views, etc.
+
 
 ## [Using the Micro Framework](using.md)
 
