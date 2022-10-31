@@ -23,7 +23,7 @@ Pacotes de terceiros
 
 ## Instalação deste exemplo
 
-- Copie a pasta app para o /var/www/html ou c:\xampp\htdocs
+- Copie a pasta pt para o /var/www/html ou c:\xampp\htdocs com o nome que desejar
 - Criar o banco no mysql
 - Configurar no config.php
 - Execute:
