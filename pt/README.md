@@ -36,6 +36,9 @@ Access
 
 http://localhost/micro-framework
 
+## Ajustar o código
+
+Agora 
 
 ## Migrations e seeds
 
