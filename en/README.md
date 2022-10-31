@@ -21,7 +21,7 @@ Third-party packages
 
 ## Install this example
 
-- Copy app folder to /var/www/html or c:\xampp\htdocs
+- Copy en folder to /var/www/html or c:\xampp\htdocs with wanted name
 - Create database in mysql
 - Configure in config.php
 - Execute:
