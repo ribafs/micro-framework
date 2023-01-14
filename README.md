@@ -19,7 +19,7 @@ Melhorei a documentação das migrations com o Phinx.
 
 [*Português*](pt-BR) | [*English*](en-US)
 ----------- | ----------
-<a href="pt"><img src="pt.png"> | <a href="en"><img src="en.png">
+<a href="pt"><img src="pt.png"></a> | <a href="en"><img src="en.png"></a>
 
 ## URL deste Projeto
 
