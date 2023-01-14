@@ -17,7 +17,7 @@ Melhorei a documentação das migrations com o Phinx.
 
 ## Clique para acessar/Click to access
 
-[*Português*](pt-BR) | [*English*](en-US)
+[*Português*](pt-BR) | [*English*](en)
 ----------- | ----------
 <a href="pt"><img src="pt.png"></a> | <a href="en"><img src="en.png"></a>
 
