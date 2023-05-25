@@ -216,3 +216,12 @@ INSERT INTO products (id, name, price) VALUES
 
 -- 2022-10-04 09:26:20
 
+create table selers(
+  id seriak primary key,
+  name varchar(50) not null,
+  price decimal(8,2) not null
+);
+
+insert into selers(name, price) values ('banana maçã', 3.45);
+insert into selers(name, price) values ('manga rosa', 5.35);
+

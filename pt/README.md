@@ -1,5 +1,8 @@
 # Application using Simplest Router
 
+## ALERTA
+
+A parte em portugûes está mais atualizada, inclusive coom a inclusão, passo a passo, de um novo CRUD
 
 ## Resources in this application:
 
