@@ -17,11 +17,11 @@ Melhorei a documentação das migrations com o Phinx.
 
 ## Clique para acessar/Click to access
 
-[*Português*](pt-BR) | [*English*](en-US)
+[*Português*](pt) | [*English*](en)
 ----------- | ----------
-<a href="pt"><img src="pt.png"> | <a href="en"><img src="en.png">
+<a href="pt"><img src="pt.png"></a> | <a href="en"><img src="en.png"></a>
 
-Projeto
+## URL deste Projeto
 
 [https://github.com/ribafs/micro-framework](https://github.com/ribafs/micro-framework)
 

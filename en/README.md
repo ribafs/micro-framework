@@ -21,7 +21,7 @@ Third-party packages
 
 ## Install this example
 
-- Copy app folder to /var/www/html or c:\xampp\htdocs
+- Copy en folder to /var/www/html or c:\xampp\htdocs with wanted name
 - Create database in mysql
 - Configure in config.php
 - Execute:
@@ -33,6 +33,10 @@ sh migrate.sh
 Access
 
 http://localhost/micro-framework
+
+## Adjusts
+
+Now adjust microframework code structure to new database: controllers, models, views, etc.
 
 
 ## [Using the Micro Framework](using.md)
